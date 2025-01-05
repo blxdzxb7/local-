@@ -32,7 +32,7 @@ end
 
 local function notif(str,dur)
 	game:FindService("StarterGui"):SetCore("SendNotification", {
-		Title = "CRACKED SALAZAR HUB",
+		Title = "CRACKED SHUB HUB",
 		Text = str,
 		Icon = "rbxassetid://2005276185",
 		Duration = dur or 3
@@ -64,19 +64,19 @@ Main.Image = "rbxassetid://17411088510"
 
 Top.Name = "Top"
 Top.Parent = Main
-Top.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Top.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Top.BorderSizePixel = 0
 Top.Size = UDim2.new(0, 454, 0, 44)
 
 Title.Name = "Title"
 Title.Parent = Top
-Title.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Title.BorderSizePixel = 0
 Title.Position = UDim2.new(0, 0, 0.295454562, 0)
 Title.Size = UDim2.new(0, 454, 0, 30)
 Title.Font = Enum.Font.SourceSans
-Title.Text = "KILL | Salazar hub"
-Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.Text = "KILL | SHUB hub"
+Title.TextColor3 = Color3.fromRGB(255, 0, 255)
 Title.TextScaled = true
 Title.TextSize = 14.000
 Title.TextWrapped = true
@@ -124,4 +124,4 @@ TextButton.MouseButton1Click:Connect(function()
 	end
 end)
 
-notif("Loaded successfully! Created by Salazar", 5)
+notif("Loaded successfully! Created by SHUB", 5)
